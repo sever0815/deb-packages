@@ -1,3 +1,7 @@
 /*
 !.gitignore
-!./sbctl/sbctl-0.18.deb
+
+!sbctl/
+sbctl/**
+!sbctl/sbctl-0.18.deb
+
