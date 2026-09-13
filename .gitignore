@@ -5,5 +5,7 @@
 !sbctl/
 sbctl/*
 !sbctl/sbctl-0.18.deb
-!sbctl/sbctl-0.18/DEBIAN/
+!sbctl/sbctl-0.18/
 sbctl/sbctl-0.18/*
+!sbctl/sbctl-0.18/DEBIAN/
+
