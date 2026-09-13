@@ -7,3 +7,8 @@ sbctl/*
 !sbctl/sbctl-0.18.deb
 !sbctl/sbctl-0.18/
 
+!translator-gtk/
+translator-gtk/*
+!translator-gtk/translator-gtk.deb
+!translator-gtk/translator-gtk/
+
