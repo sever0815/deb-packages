@@ -1,0 +1,8 @@
+[Desktop Entry]
+Comment=
+Exec=/usr/bin/translator-gtk
+Icon=/usr/share/translator-gtk/Google_Translate_logo.svg
+Name=Translator-gtk
+Path=
+Terminal=false
+Type=Application
