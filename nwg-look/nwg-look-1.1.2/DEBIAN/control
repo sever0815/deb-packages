@@ -1,0 +1,24 @@
+Source: https://github.com/nwg-piotr/nwg-look
+Maintainer: sever0815 <github.com/sever0815>
+Section: universe/x11
+Priority: optional
+Version: 1.1.2
+Build-Depends: debhelper-compat (= 13)
+Package: nwg-look
+Architecture: amd64
+Depends: xcur2png, libglib2.0-bin, libc6 (>= 2.34), 
+	libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.15.12), 
+	libfontconfig1 (>= 2.12.6), libgdk-pixbuf-2.0-0 (>= 2.31.1), 
+	libglib2.0-0t64 (>= 2.68.0), libgtk-3-0t64 (>= 3.21.6), 
+	libpango-1.0-0 (>= 1.44.6), libpangocairo-1.0-0 (>= 1.22.0)
+Description: GTK3 settings editor for wlroots environments like Sway
+ Nwg-look is a GTK3 settings editor, designed to work properly in wlroots-based
+ Wayland environment. The look and feel is strongly influenced by LXAppearance,
+ but nwg-look is intended to free the user from a few inconveniences:
+ - It works natively on Wayland. You no longer need Xwayland, nor strange env
+ variables for it to run.
+ - It applies gsettings directly, with no need to use workarounds. You don't
+ need to set gsettings in the sway config file. You don't need the
+ `import-gsettings` script.
+ .
+ This application is a part of the nwg-shell project.
